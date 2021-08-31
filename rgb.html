@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body id="color">
+<br><br><br>
+
+<div class="slidecontainer">
+  <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+  <p class="label label-danger">RED: <span id="value_red"></span></p> <br><br>
+  <input type="range" min="0" max="255" value="0" class="slider" id="myRange2">
+  <p class="label label-success">GREEN: <span id="value_green"></span></p><br><br>
+
+  <input type="range" min="0" max="255" value="0" class="slider" id="myRange3">
+  <p class="label label-primary">BLUE: <span id="value_blue"></span></p>
+  <br><br>
+  <span class="label label-info">HEX CODE:</span> <span class="label label-default" id="hex_code"></span><br>
+  <span class="label label-info">RGB CODE:</span> <span class="label label-default" id="rgb_code"></span>
+  
+</div>
+<br><br><br>
+<span style="font-size: 12px;"  class="label label-warning"> &copy Yasar Unlu</span>
+<script src="app.js">
+  
+</script>
+
+</body>
+</html>
