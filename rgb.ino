@@ -1,18 +1,4 @@
-/*
-  Minimal Esp8266 Websockets Server
-  This sketch:
-        1. Connects to a WiFi network
-        2. Starts a websocket server on port 80
-        3. Waits for connections
-        4. Once a client connects, it wait for a message from the client
-        5. Sends an "echo" message to the client
-        6. closes the connection and goes back to step 3
-  Hardware:
-        For this sketch you only need an ESP8266 board.
-  Created 15/02/2019
-  By Gil Maimon
-  https://github.com/gilmaimon/ArduinoWebsockets
-*/
+
 
 #include <ArduinoWebsockets.h>
 #include <ESP8266WiFi.h>
