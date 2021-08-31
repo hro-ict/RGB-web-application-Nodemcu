@@ -3,8 +3,8 @@
 #include <ArduinoWebsockets.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid = "tele2"; //Enter SSID
-const char* password = "3AE53D90BJK"; //Enter Password
+const char* ssid = "ssid"; //Enter SSID
+const char* password = "password"; //Enter Password
 int blue_led= D0;
 int green_led= D1;
 int red_led=D2;
